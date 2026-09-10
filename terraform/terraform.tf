@@ -17,7 +17,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "example" {
   name     = "rg-terraform-github-test-uks"
-  location = var.location
+  location = "uksouth"
 
   tags = {
     environment = "test"
